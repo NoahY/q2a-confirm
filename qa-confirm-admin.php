@@ -33,7 +33,7 @@
             $fields = array();
             
             $fields[] = array(
-                'label' => 'Enable confirmation',
+                'label' => 'Enable confirmation dialogue',
                 'tags' => 'NAME="confirm_close_plugin"',
                 'value' => qa_opt('confirm_close_plugin'),
                 'type' => 'checkbox',

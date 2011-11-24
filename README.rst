@@ -1,25 +1,17 @@
 ===========================
-Question2Answer Embed 1.0b2
+Question2Answer Confirm 1.0b1
 ===========================
 -----------
 Description
 -----------
-This is a plugin for **Question2Answer** that provides media embedding functionality.
+This is a plugin for **Question2Answer** that provides confirm dialogues when leaving text in a textarea.
 
 --------
 Features
 --------
-- currently supports the following sites:
-  - YouTube
-  - Vimeo
-  - Metacafe
-  - Dailymotion
-- also supports basic image and mp3 embedding from urls
-- option to add Thickbox_ effect for images
-- switch on and off via admin/plugins
-- set width and height via admin/plugins
-
-.. _Thickbox: http://jquery.com/demo/thickbox/
+- checks all textareas on key up to see if there is still text in one of them, adds the function to onbeforeunload
+- checks at document.onload, for error submissions
+- shows confirm when leaving unless it is a form submission
 
 ------------
 Installation
@@ -28,16 +20,16 @@ Installation
 #. Get the source code for this plugin from github_, either using git_, or downloading directly:
 
    - To download using git, install git and then type 
-     ``git clone git://github.com/NoahY/q2a-embed.git embed``
+     ``git clone git://github.com/NoahY/q2a-confirm.git embed``
      at the command prompt (on Linux, Windows is a bit different)
    - To download directly, go to the `project page`_ and click **Download**
 
-#. navigate to your site, go to **Admin -> Plugins** on your q2a install and select the '**Enable Video Embedding**' option, then '**Save**'.
+#. navigate to your site, go to **Admin -> Plugins** on your q2a install and select the '**Enable confirmation dialogue**' option, then '**Save**'.
 
 .. _Question2Answer: http://www.question2answer.org/install.php
 .. _git: http://git-scm.com/
 .. _github:
-.. _project page: https://github.com/NoahY/q2a-embed
+.. _project page: https://github.com/NoahY/q2a-confirm
 
 ----------
 Disclaimer
