@@ -11,6 +11,10 @@
 				$this->output('<script type="text/javascript">
 jQuery("document").ready(function() {
 
+	jQuery("form").submit(function(event) {
+		window.onbeforeunload = null;
+	});
+
 	window.onbeforeunload = function(event) {
 		var content = false
 		jQuery("textarea:visible").each( function() {
