@@ -3,7 +3,7 @@
 /*              
         Plugin Name: Confirm
         Plugin URI: https://github.com/NoahY/q2a-confirm
-        Plugin Update Check URI: https://github.com/NoahY/q2a-confirm/raw/master/qa-plugin.php
+        Plugin Update Check URI: https://raw.github.com/NoahY/q2a-confirm/master/qa-plugin.php
         Plugin Description: Confirm close when text is entered
         Plugin Version: 1.0b1
         Plugin Date: 2011-11-24
